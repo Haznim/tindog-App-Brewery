@@ -1,0 +1,179 @@
+/*Global*/
+* {
+  font-family: 'Montserrat' , sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Montserrat-Bold' , sans-serif;
+  font-weight: 850;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: 850;
+}
+
+/*Landing Section - Title*/
+#landing-heading {
+  font-family: 'Montserrat' , sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: white;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  overflow: hidden;
+  background-color: #ff4c68;
+  padding: 3% 15%;
+  padding-bottom: 0px;
+  width: 100vw;
+}
+
+.col-lg-6 {
+  height: 65vh;
+}
+
+/*Landing buttons*/
+.btn-outline-light {
+  color: white;
+}
+
+.landing-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/*Navigation Bar*/
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.navbar {
+  padding: 0px 0px 4.5rem;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/*Langing Image*/
+#landing-img {
+  width: 60%;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+  margin: 5% 0 0 10% !important;
+}
+
+::-moz-selection {
+  background-color: black;
+}
+
+::selection {
+  background-color: black;
+}
+
+/*Features*/
+#features {
+  padding: 7% 15%;
+}
+
+#features i {
+  color: #ef8172;
+  font-size: 4rem;
+  padding: 3%;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features .col-lg-4 {
+  text-align: center;
+  padding: 5%;
+}
+
+#features h3 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: 850;
+}
+
+#features h3::-moz-selection {
+  background-color: #ef8172;
+  color: white;
+}
+
+#features h3::selection {
+  background-color: #ef8172;
+  color: white;
+}
+
+#features p {
+  color: #8f8f8f;
+  font-size: .9rem;
+  font-weight: 450;
+  margin: 0px;
+}
+
+#features p::-moz-selection {
+  background-color: #ef8172;
+  color: white;
+}
+
+#features p::selection {
+  background-color: #ef8172;
+  color: white;
+}
+
+/*Testimonials*/
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#testimonials img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*Press*/
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 500px) {
+  #landing-heading {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1295px) {
+  .col-lg-6 {
+    height: auto;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
